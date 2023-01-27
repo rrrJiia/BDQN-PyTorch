@@ -57,5 +57,6 @@ if __name__ == '__main__':
     random_seed()
     select_device(1)
 
-    game = 'BattleZoneNoFrameskip-v4'
+    # game = 'BattleZoneNoFrameskip-v4'
+    game = 'MiniGrid-Empty-5x5-v0'
     bdqn_experiment(game=game, n_step=3, replay_cls=PrioritizedReplay, async_replay=True, run=0, remark='test10')
