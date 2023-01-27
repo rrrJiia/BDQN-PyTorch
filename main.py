@@ -1,5 +1,6 @@
 from bdqn import *
-
+import gym
+import minigrid
 def bdqn_experiment(**kwargs):
     
     def cbk_record_episode(episode_id):
